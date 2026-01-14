@@ -58,6 +58,7 @@ header{
 }
 .banner-image img{
     width: 100%;
+    vertical-align: middle;
 }
 
 
@@ -77,5 +78,33 @@ header{
     }
      .banner-info h1{
         font-size: 3.5rem;
+    }
+}
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+    header{
+        padding: 30px;
+        padding-bottom: 0;
+    }
+    .banner-info{
+        max-width: 500px;
+        
+    }
+    .banner-info h1{
+        font-size: 3.5rem;
+        margin-bottom: 20px;
+    }
+    .section-description{
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 1201px) and (max-width: 1400px) {
+    header{
+        padding: 20px;
+        padding-bottom: 0;
+    }
+    .banner-container{
+        gap: 50px;
+
     }
 }
