@@ -180,6 +180,23 @@ header{
     color:#E55473
 }
 
+/* instragram section  */
+.instragram-section{
+    text-align: center;
+    margin-bottom: 130px;
+}
+.insta-images{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+.insta-images img{
+    width: 100%;
+}
+.insta{
+    max-width: 324px;
+}
+
 @media screen and (max-width: 576px) {
     .banner-container{
         flex-direction: column;
@@ -223,6 +240,16 @@ header{
     .deal-info{
         width: 100%;
     }
+    .instragram-section{
+        width: 100%;
+        justify-items: center;
+    }
+    .insta-images{
+        flex-direction: column;
+        width: 342px;
+        
+     }
+
 
     
 }
@@ -251,6 +278,14 @@ header{
         
 
     }
+    .instragram-section{
+        padding: 20px;
+        justify-items: center;
+    }
+    .insta-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
     
     
 }
@@ -282,6 +317,14 @@ header{
     .info-details{
         line-height: 20px;
     }
+    .instragram-section{
+        padding: 20px;
+        justify-items: center;
+    }
+    .insta-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+     }
 }
 
 @media screen and (min-width: 1201px) and (max-width: 1400px) {
@@ -292,5 +335,9 @@ header{
     .banner-container{
         gap: 50px;
 
+    }
+    .instragram-section{
+        padding: 50px;
+        justify-items: center;
     }
 }
