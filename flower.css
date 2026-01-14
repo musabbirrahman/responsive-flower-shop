@@ -213,6 +213,16 @@ header{
         
         
     }
+    .deal-section{
+        flex-direction: column;
+        gap: 100px;
+        width: 100%;
+        
+
+    }
+    .deal-info{
+        width: 100%;
+    }
 
     
 }
@@ -234,7 +244,13 @@ header{
     .info-container{
         grid-template-columns: repeat(1, 1fr);
     }
+    .deal-section{
+        flex-direction: column;
+        gap: 100px;
+        width: 100%;
+        
 
+    }
     
     
 }
