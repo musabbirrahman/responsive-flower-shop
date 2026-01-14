@@ -157,6 +157,29 @@ header{
     line-height: 35px;
 }
 
+/* deal related styles  */
+.deal-section{
+    background-color: #CCCCCC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 186px;
+    padding: 100px 0;
+    /* padding: 100px 400px 100px 400px; */
+    margin-bottom: 130px;
+}
+.deal-info{
+    width: 594px;
+
+}
+.deal-info h3{
+    font-size: 2.2rem;
+}
+.deal-info #pink{
+    color:#E55473
+}
+
 @media screen and (max-width: 576px) {
     .banner-container{
         flex-direction: column;
